@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="styles.css">
-
+</head>
 <style>
 body{
 font-family: Arial, sans-serif;
@@ -11,16 +11,17 @@ max-width:900px;
 margin:auto;
 }
 </style>
-
+<title>Artists</title>
 </head>
 
 <body>
 
+<h1>Register Your Artists to Book Live Music</h1>
+
 <form>
 
-
-<input type="text"><br><br>
-
+venue Name<br>
+<input type="text"><br>
 Contact Name<br>
 <input type="text"><br><br>
 
@@ -53,9 +54,17 @@ Music Style Preferred<br>
 <a href="venues.html">VENUES</a> |
 <a href="contact.html">CONTACT</a>
 </nav>
-<h1>Artists</h1>
 
-<p>Apply to perform through Booking With a Smile.</p>
+<h2>Apply to Perform Through Booking With a Smile</h2>
+
+<div class="card">
+<h3>Artist Name</h3>
+<p>Genre: Folk / Acoustic</p>
+<p>City: Vancouver</p>
+<p>Listen: Link to YouTube or Spotify</p>
+</div>
+
+<p>Join our network of performers and connect with venues looking for live music.</p>
 
 <form name="artist-application" method="POST" data-netlify="true">
 <input type="hidden" name="form-name" value="artist-application">
@@ -88,4 +97,3 @@ Music Style Preferred<br>
 
 </body>
 </html>
-
